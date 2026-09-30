@@ -1,0 +1,111 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+header{
+    text-align: center;
+    background-color: #f5e6f0;
+    padding: 20px;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+nav a {
+    text-decoration: none;
+    color:#7a3e65;
+    font-weight: bold;
+}
+#inicio{
+    text-align: center;
+    padding: 20px;
+}
+#inicio img{
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    border-radius: 10px;
+}
+#manualidades{
+    text-align: center;
+    padding: 40px 20px;
+}
+.productos{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.producto{
+    width: 250px;
+    padding: 20px;
+    border: 10px solid #ddd;
+    border-radius: 10px;
+}
+.producto img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+#galeria{
+    text-align: center;
+    padding: 40px 20px;
+}
+.galeria-fotos{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.galeria-fotos img{
+    width: 250px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+#contacto{
+    text-align: center;
+    padding: 50px 20px;
+}
+.boton-whatsapp{
+    display: inline-block;
+    margin-top: 15px;
+    padding: 12px 25px;
+    background-color: green;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+}
+#nosotros{
+    text-align: center;
+    padding: 40px 20px;
+}
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #f5e6f0;
+    margin-top: 30px;
+}
+@media(max-width: 768px){
+    nav{
+        flex-direction: column;
+        gap: 10px;
+    }
+    .productos{
+        flex-direction: column;
+        align-items: center;
+    }
+    .galeria-fotos{
+        flex-direction: column;
+        align-items: center;
+    }
+    .producto{
+        width: 90%;
+    }
+    .galeria-fotos img{
+        width: 90%;
+        height: auto;
+    }
+}
+@media (max-width: 768px)
